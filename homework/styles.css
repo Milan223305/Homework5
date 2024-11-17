@@ -1,0 +1,213 @@
+* {
+  font-family: "Sour Gummy", sans-serif;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(93, 223, 255);
+}
+.nav a.logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 150px;
+}
+.nav a:hover {
+  background-color: #4973ff;
+}
+
+.nav a {
+  color: #000000;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center p {
+  display: flex;
+
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.mainpage p {
+  max-width: 50%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactgeneral {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactform {
+  width: flex;
+  padding: 10px;
+  border: 3px solid rgb(93, 223, 255);
+  border-radius: 10px;
+}
+.map {
+  margin-left: 15px;
+  border: 3px solid rgb(93, 223, 255);
+}
+
+.backgroundimg {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered p {
+  font-size: 110px;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px black;
+}
+
+.mainpage {
+  display: flex;
+  justify-content: center;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+.wrapper {
+  margin: 150px auto;
+  width: 70%;
+}
+.wrapper img {
+  max-width: 320px;
+  float: left;
+  margin-right: 15px;
+}
+.wrapper h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: left;
+}
+.wrapper p {
+  font-size: 20px;
+}
+
+.wrapper2 {
+  margin: 150px auto;
+  width: 70%;
+}
+.wrapper2 img {
+  max-width: 320px;
+  float: right;
+  margin-left: 15px;
+}
+.wrapper2 h2 {
+  font-size: 40px;
+  display: flex;
+  justify-content: right;
+}
+.wrapper2 p {
+  font-size: 20px;
+}
+
+.whyus {
+  display: flex;
+  justify-content: center;
+}
+
+.whyus p {
+  font-size: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  position: flex;
+  background-color: #000000;
+  color: #fff;
+  padding: 10px auto;
+}
+
+.review div {
+  color: #ffe400;
+}
+
+.review input {
+  display: none;
+}
+
+.review input + label {
+  font-size: 60px;
+}
+.review input:checked + label ~ label {
+  color: #909090;
+}
+
+.review label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+.review {
+  height: 150px;
+  width: 400px;
+  border: 4px solid #000000;
+  padding: 20px;
+}
+.review div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanks p {
+  font-size: 100px;
+  text-align: center;
+}
+.thankyou-emoji img {
+  max-width: 500px;
+}
+.contactinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactitem {
+  display: flex;
+  align-items: center;
+}
+
+.contactinfo p {
+  margin-left: 15px;
+}
+
+.center a {
+  font-size: 50px;
+  color: #000000;
+  border: 4px solid #000000;
+  background-color: #00a6ff;
+  padding: 20px;
+}
